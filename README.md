@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Arkgum Agent Skills — source-grounded workflows for AI agents" width="100%">
+  <img src="assets/social-preview.png" alt="Arkgum Agent Skills — source-grounded workflows for AI agents" width="100%">
 </p>
 
 <p align="center">
