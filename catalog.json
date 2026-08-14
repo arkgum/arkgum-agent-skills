@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "repository": "arkgum/arkgum-agent-skills",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "name": "arkgum-research-to-page",
+      "path": "skills/arkgum-research-to-page",
+      "summary": "Turn NotebookLM research into a cited page brief and builder-ready prompt.",
+      "categories": ["research", "notebooklm", "web", "content-strategy"],
+      "requires": ["python3", "notebooklm-mcp-or-compatible-cli"]
+    }
+  ]
+}

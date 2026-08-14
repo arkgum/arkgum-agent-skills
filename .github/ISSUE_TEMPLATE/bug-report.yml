@@ -1,0 +1,54 @@
+name: Bug report
+description: Report reproducible behavior in a published skill
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - arkgum-research-to-page
+        - Repository or installer
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Agent and environment
+      description: Agent, version, operating system, and installation method.
+      placeholder: Codex Desktop, macOS, installed with npx skills
+    validations:
+      required: true
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Minimal prompt or reproduction
+      description: Remove credentials and private data.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed credentials, cookies, private URLs, and personal data.
+          required: true

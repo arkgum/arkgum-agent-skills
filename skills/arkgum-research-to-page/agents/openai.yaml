@@ -1,0 +1,13 @@
+interface:
+  display_name: "Arkgum Research to Page"
+  short_description: "NotebookLM research into a grounded page brief"
+  default_prompt: "Используй $arkgum-research-to-page, чтобы исследовать тему в NotebookLM, найти подтверждённые возможности и подготовить промпт для сборки страницы."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "notebooklm_mcp"
+      description: "Google NotebookLM research and source-grounded query tools"
+
+policy:
+  allow_implicit_invocation: true

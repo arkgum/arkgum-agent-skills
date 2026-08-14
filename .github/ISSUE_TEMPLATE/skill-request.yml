@@ -1,0 +1,34 @@
+name: Skill request
+description: Propose a focused, reusable Agent Skill
+title: "[Skill]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Repeated problem
+      description: What recurring task should this skill make reliable?
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example prompts
+      description: Provide two or three realistic prompts that should trigger the skill.
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Verifiable handoff
+      description: What artifacts or observable result should define success?
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Tools and permissions
+      description: List required services, runtimes, credentials, and consequential actions.
